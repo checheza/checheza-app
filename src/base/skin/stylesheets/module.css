@@ -1,0 +1,63 @@
+.module_class {
+    float: left;
+    width: 57%;
+    height: 100%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.module_math {
+    display: flex;
+}
+
+.module_math {
+    padding-top: 0%;
+  }
+
+.text_side {
+    width: 43%;
+}
+
+.downloadButton {
+    background-color: #5A50DC;
+    border: none;
+    color: white;
+    padding: 15px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 33px;
+    font-family: OpenSans;
+}
+
+.button-class {
+    border: none;
+    color: rgb(83,191,121, 0.5);
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border: 2px solid #53BF79;
+    background-color: transparent;
+    font-family: Lara;
+    border-radius: 50px;
+  }
+
+  div {
+    font-family: Lara;
+  }
+
+  .text-items {
+      padding: 10%;
+      padding-right: 25%;
+  }

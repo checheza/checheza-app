@@ -1,0 +1,106 @@
+
+
+  #widgetBackground {
+    background-color: #5fccff;
+    width:100%;
+    height:100%;
+    float:left;
+    margin:0;
+    padding:0;
+  }
+
+  @keyframes item-fadeIn { 
+    0% { opacity:0; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+  }
+  
+  @keyframes tree-climb { 
+    from {
+      background-position-y: 50%;
+    }
+    to { 
+      background-position-y: 10%;
+    }
+  }
+
+  .fadeindelay { 
+    animation: item-fadeIn 2s forwards;
+  }
+
+  .climb {
+    animation: tree-climb 5s forwards;
+  }
+
+  .climb_fast {
+    animation: tree-climb 1s forwards;
+  }
+
+  #tree {
+    float:left;
+    will-change: background-position-y;
+    background-image: url(../assets/treehouse/treehouse.png);
+    z-index:2;
+    overflow:visible;
+    background-repeat:repeat-x;
+    background-size:100% 300%;
+    background-position-y: 50%;
+    width:inherit;
+    position:relative;
+    top:0;
+    height:inherit;
+  }
+
+  .widget {
+    opacity:0;
+  }
+  
+  .reading {
+    width: 6%;
+    height: 13%;
+    background-image: url(../assets/treehouse/reading.png);
+    background-size: 83% 93%;
+    background-repeat: no-repeat;
+    position: inherit;
+    top: 29%;
+    left: 63%;
+    z-index: 5;
+  }
+  
+  #braintrain {
+    background-image: url(../assets/treehouse/braintrain.png);
+    width: 8%;
+    height: 10%;
+    background-size: 85% 100%;
+    background-repeat: no-repeat;
+    position: inherit;
+    top: 76%;
+    left: 37%;
+    z-index: 5;
+    opacity: 0;
+  }
+
+  #math {
+    width: 7%;
+    height: 10%;
+    background-image: url(../assets/treehouse/math.png);
+    background-size: 97% 54%;
+    background-repeat: no-repeat;
+    position: inherit;
+    top: 41%;
+    left: 28%;
+    z-index: 5;
+}
+
+  #writing {
+    will-change: transform;
+    transform: translateZ(0);
+    background-image: url(../assets/treehouse/writing.png);
+    width: 6%;
+    height: 11%;
+    background-size: 100% 100%;
+    position: inherit;
+    top: 11%;
+    left: 68%;
+    z-index: 5;
+  }

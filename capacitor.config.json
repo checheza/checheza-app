@@ -1,0 +1,8 @@
+{
+  "appId": "com.checheza.checheza.app",
+  "appName": "Checheza",
+  "bundledWebRuntime": true,
+  "npmClient": "yarn",
+  "webDir":"www",
+  "linuxAndroidStudioPath": "/home/andreas/.local/share/umake/bin/android-studio"
+}

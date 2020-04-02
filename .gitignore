@@ -1,0 +1,7 @@
+/android
+/electron
+.npmignore
+yarn-error.log
+.DS_Store
+/www/dist
+node_modules
