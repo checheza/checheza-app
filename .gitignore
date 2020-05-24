@@ -5,3 +5,4 @@ yarn-error.log
 .DS_Store
 /www/dist
 node_modules
+www/core.js
