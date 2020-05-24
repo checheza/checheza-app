@@ -5,7 +5,7 @@ module.exports = [{
   mode: 'production',
   entry: {
     config: './config/config.js',
-    bundle: [ '@babel/polyfill', 'jquery', 'checheza-core', './src/boot.js']
+    bundle: [ '@babel/polyfill', 'jquery', './src/boot.js'],
   },
   output: {
     filename: '[name].js',
@@ -15,6 +15,9 @@ module.exports = [{
   plugins: [
     new webpackshell({ onBuildEnd: ['npx cap copy'], dev: true })
   ],
+  externals:  { 
+    'checheza_core': 'checheza_core' 
+  },
   module: {
     rules: [
       {

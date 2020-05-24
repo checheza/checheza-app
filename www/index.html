@@ -3,10 +3,21 @@
   <head>
     <link rel="stylesheet" href="css/core.css" />
     <link rel="stylesheet" href="css/animate.css" />
+    <script>
+      var global = window;
+
+      var __cfg = {
+          "backend": {
+              "use": true,
+              "address": "https://data.checheza.com",
+              "username": "admin",
+              "password": "admin"
+          }
+      }
+    </script>
+    <script src="core.js"></script>
     <script src="dist/config.js"></script>
-    <script src="dist/externals.js"></script>
     <script src="dist/bundle.js"></script>
-    <meta http-equiv="Content-Security-Policy" content="script-src 'unsafe-inline';">
     <title> Checheza </title>
   </head>
   <body>
