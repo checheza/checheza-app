@@ -2,12 +2,15 @@ import "@babel/polyfill";
 import Core from 'checheza_core';
 
 class Boot {
-    constructor() { 
+    constructor() {
         Core.refreshModules()
         .then(() => {
-            Core.startMainWidget();
+            Core.moduleUpdate()
+            .then(() => {
+                Core.startMainWidget();
+            });
         });
     }
 }
- 
+
 export default new Boot();
