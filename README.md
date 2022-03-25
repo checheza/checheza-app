@@ -1,5 +1,5 @@
-# Checheza Core
-This is the core library for the current Checheza app.
+# Checheza App
+This is the main Checheza.  This is basically a structure to read in the Core code and run the imported game modules.
 
 ## Instructions on how to compile the checheza app
 Abstract:
