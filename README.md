@@ -19,6 +19,9 @@ Detailed Build Instructions:
 6. This will create a "core.js" file in the root folder of the checheza-core project.  Grab this "core.js" file and copy it into the "www" folder of the checheza-app project (checheza-app/www/core.js).
 7. Switch to the main directory of the checheza-app project.
 8. Update the used modules. Run the following command: yarn install
-9. Now you can use Capacitor to compile the project for your different needs (see below).
- 
+9. Now you can use Capacitor to compile the project for your different needs.
+
+It is important to note that this app will run with no games available for download.  But you need to have the Treehouse Widget available.
+The Treehouse widget is marked like a regular widget.  But it is in fact the core app that handles all of the navidation for the Checheza app.
+
 Capacitor documentation: https://ionic.zone/capacitor/cli
